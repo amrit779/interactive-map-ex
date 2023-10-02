@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<fusioncharts
+  width="600"
+  height="500"
+  type="india"
+  dataFormat="JSON"
+  [dataSource]="dataSource"
+  (initialized)="initialized($event)"
+></fusioncharts>
